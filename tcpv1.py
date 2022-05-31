@@ -1,4 +1,6 @@
 #!usr/bin/python3
+try:
+    import requirements.txt
 except:
     if sys.platform.startswith("linux"):
         os.system("pip3 install -r requirements.txt")
