@@ -1,14 +1,4 @@
 #!usr/bin/python3
-import requirements.txt
-try:
-    import requirements.txt
-except:
-    if sys.platform.startswith("linux"):
-        os.system("pip3 install -r requirements.txt")
-    elif sys.platform.startswith("freebsd"):
-        os.system("pip3 install -r requirements.txt")
-    else:
-        os.system("pip install -r requirements.txt")
 import random
 import threading
 import socket
