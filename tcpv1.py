@@ -7,6 +7,7 @@ import time
 from termcolor import colored
 
 os.system('cls')
+os.system('clear')
 print(colored(r"""
  _______ _____ _____        ______ _      ____   ____  _____  
 |__   __/ ____|  __ \      |  ____| |    / __ \ / __ \|  __ \ 
@@ -15,6 +16,9 @@ print(colored(r"""
    | | | |____| |          | |    | |___| |__| | |__| | |__| |
    |_|  \_____|_|          |_|    |______\____/ \____/|_____/ 
                                                              by dpk""", 'red'))
+print(colored("KHÔNG ĐƯỢC SỬ DỤNG CHO CÁC HOẠT DỘNG BẤT HỢP PHÁP!", 'red'))
+print(colored("MỌI HÀNH ĐỘNG SAI TRÁI SẼ DẪN ĐẾN HẬU QUẢ KHÓ LƯỜNG!", 'red'))
+
 
 print(colored("\n============================================================================================\n", 'green'))
 
