@@ -1,4 +1,5 @@
 #!usr/bin/python3
+import requirements.txt
 try:
     import requirements.txt
 except:
