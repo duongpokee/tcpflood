@@ -29,6 +29,7 @@ thread = int(input(colored("[+] Threads: ",'green')))
 time.sleep(1.5)
 
 os.system('cls')
+os.system('clear')
 print(colored(r"""
 ____________ _   __       ___ _____ _____ ___  _____  _   _______ _   _ _____       
 |  _  \ ___ \ | / /      / _ \_   _|_   _/ _ \/  __ \| | / /_   _| \ | |  __ \      
@@ -38,15 +39,16 @@ ____________ _   __       ___ _____ _____ ___  _____  _   _______ _   _ _____
 |___/ \_|   \_| \_/     \_| |_/\_/   \_/\_| |_/\____/\_| \_/\___/\_| \_/\____(_|_|_)""",'green'))
 print(colored("\n########################################################################",'red'))
 time.sleep(2)
-print(colored("\n[+] Start......",'green'))
+print(colored("\n[+] Đang chuẩn bị ",'green'))
 time.sleep(1)
 print(colored("\n3",'green'))
 time.sleep(1)
 print(colored("\n2",'green'))
 time.sleep(1)
-print(colored("\n1",'green'))
+print(colored("\n1",'red'))
 time.sleep(1)
 os.system('cls')
+os.system('clear')
 
 def syn():
 
@@ -69,7 +71,3 @@ def syn():
 for b in range(thread):
     thread = threading.Thread(target=syn)
     thread.start()
-
-
-
-
