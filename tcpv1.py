@@ -52,7 +52,7 @@ os.system('clear')
 
 def syn():
 
-    hevin = random._urandom(10000000000000)
+    hevin = random._urandom(900)
     bb = int(0)
     while True:
         try:
